@@ -1,0 +1,387 @@
+/* Navigation CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f9f9fb ;
+}
+.navigationBar{
+    background-color: white;
+    height: 80px;
+    padding: 0px 20px;
+    display: flex;
+    box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.145);
+}
+
+.navigationBar .navBar{
+    height: 80px;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.buttonDiv{
+    display: flex;
+}
+
+.buttonDiv .button{
+    align-self: center;
+    margin-left: auto;
+}
+
+.logoDiv{
+    flex: 1;
+}
+
+.logoDiv a img{
+    height: 80px;
+}
+
+.buttonDiv{
+    flex:1;
+    display: flex;
+    cursor: pointer;
+}
+
+#button{
+    width: 235px;
+    height: 37px;
+    background-color: #E40046;
+    display: flex;
+    border-radius: 5px;
+}
+
+#button span{
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    align-self: center;
+    margin: 0 auto;
+}
+
+/* Herosection */
+#hero{
+    width: 100vw;
+    display: flex;
+    margin: auto;
+}
+
+
+.herosection{
+    width: 75vw;
+    padding-top: 80px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.herosection .heading{
+    font-size: 48px;
+    font-weight: 800;
+    color: #2b2b30;
+    padding: 0px 0px 20px;
+}
+
+.herosection .text{
+    color: #7c7c7d;
+    font-size: 18px;
+    padding: 0px 0px 30px;
+    text-align: center;
+}
+
+.herosection .button{
+    font-size: 14px;
+    font-weight: 600;
+    width: 128px;
+    height: 37px;
+    border-radius: 5px;
+    display: flex;
+    background-color: #E40046;
+    padding: 0px 0px;  
+    cursor: pointer; 
+}
+
+.heroButton{
+    padding: 0px 0px 30px;
+}
+
+.herosection .button .h-button {
+    justify-content: center;
+    margin: auto;
+    color: white;
+}
+
+.herosection  img{
+    width: 100vw;
+}
+
+@media (min-width:1080px){
+    .herosection  img{
+        width: 100%;
+    }
+}
+
+/* Know more section */
+.knowMore{
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 355px;
+    margin-right: 40px;
+}
+
+.card .icon img{
+    width: 40px;
+    padding: 20px 0px ;
+}
+
+.card .heading{
+    color: #2b2b30;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card .text{
+    color: #7c7c7d;
+    font-size: 16px;
+}
+
+/* Categories */
+
+.categories{
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.categories h1{
+    text-align: center;
+    color: #2b2b30;
+    padding-bottom: 50px;
+}
+
+.categories .card img{
+    width: 350px;
+    border-radius: 5px;
+    padding-bottom:20px ;
+}
+
+.categories .card{
+    margin-bottom:50px ;
+}
+
+.categoriesCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.categories .p{
+    font-size: 16px;
+    color: #2b2b30;
+}
+
+.categories button{
+    background-color: #f9f9fb;
+    border-radius: 5px;
+    color: #2b2b30;
+    border-color: #2b2b30;
+    width: 230px;
+    height: 38px;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
+
+/* Tools */
+.tools h1{
+    padding: 80px 20px 50px;
+    color: #2b2b30;
+    text-align: center;
+}
+
+.tools .container{
+    padding: 0px 20px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.toolsFlex{
+    width: 1170px;
+    height: 404px;
+    display: flex;
+}
+
+.toolsFlex .cardDiv{
+    width: 702px;
+    height: 404px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toolsFlex .cardDiv .cards{
+    width: 328px;
+    padding-left: 23px ;
+}
+
+.toolsFlex .cardDiv .cards img{
+    width: 40px;
+    margin-bottom: 30px;
+}
+
+.toolsFlex .cardDiv .cards .heading{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #2b2b30;
+}
+
+.toolsFlex .cardDiv .cards .text{
+    font-size: 16px;
+    color: #7c7c7d;
+}
+
+.toolsFlex .imgDiv{
+    width: 468px;
+    display: flex;
+    justify-content: center;
+}
+
+.toolsFlex .imgDiv img{
+    width: 430px;
+    height: 297px;
+}
+
+
+/* Heading3 CSS */
+
+.heading3{
+    padding: 80px 40px;
+}
+
+.heading3 .h3Container {
+    width: 100%;
+}
+
+.heading3 .h3Container .heading{
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #2b2b30;
+    text-align: center;
+    padding-bottom:20px ;
+}
+
+.heading3 .h3Container .paragraph{
+    font-size: 18px;
+    color: #7c7c7d;
+    padding: 0px 0px 50px;
+    text-align: center;
+}
+
+.h3cardsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.h3cardsDiv .h3cards{
+    width: 247px;
+    padding: 0 auto;
+    padding: 0 10px;
+}
+
+.h3cardsDiv .h3cards img{
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 15px
+}
+
+.h3cardsDiv .h3cards .text{
+    font-size: 16px;
+    color: #2b2b30;
+}
+
+/* Final div */
+.finalDiv{
+    padding-top:80px ;
+    display: flex;
+}
+
+.finalDiv .widgit{
+    width: 200px;
+    margin: auto;
+    padding-bottom:10px ;
+}
+
+.finalH{
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #2b2b30;
+    text-align: center;
+    padding-bottom:30px ;
+}
+
+.FinalButton{
+    display: flex;
+}
+
+.FinalButton button{
+    width: 235px;
+    height: 37px;
+    background-color: #E40046;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    margin: auto;
+    border: none;
+}
+
+.FinalIMG{
+    padding-top: 50px;
+    width: 100vw;
+}
+
+/* Footer */
+
+footer {
+    padding: 18px 0px;
+    width: 100vw;
+    display: flex;
+}
+
+footer .footerFlex{
+    width: 500PX;
+    text-align: center;
+    margin: auto;
+}
+
+footer .footerFlex .links{
+    padding-bottom: 18px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #2b2b30;
+    text-decoration: underline;
+}
+
+footer .footerFlex .copyright{
+    font-size: 12px;
+    color: #7c7c7d;
+}
+
+footer .footerFlex .empty{
+    height: 30px;
+}
